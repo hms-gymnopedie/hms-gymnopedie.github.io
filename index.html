@@ -181,37 +181,36 @@ const DATA = {
     summary: "Manager, Facility Technology Department at POSCO, one of the world's largest integrated steelmakers, leading AI-, robotics-, and data-driven maintenance initiatives for large-scale industrial facilities. With over 10 years of experience in industrial asset management, maintenance engineering, and digital transformation, responsibilities include developing automated inspection systems, predictive-maintenance models, and maintenance strategies supporting a $0.64B annual maintenance program. Currently a Visiting Researcher at Carnegie Mellon University's Robotics Institute, focusing on the application of advanced robotics and AI to industrial inspection and maintenance. Also maintains a track record of independent full-stack web and mobile application development spanning AI, computer vision, and data intelligence products.",
     focusTags: ['Industrial robotics', 'Predictive maintenance', 'Inspection automation', 'Data-driven decisions', 'Full-stack development', 'Computer vision'],
     experiences: [
-      { period: '09/2025 – 08/2026', role: 'Visiting Researcher', org: 'Carnegie Mellon University — Robotics Institute', loc: 'Pittsburgh, PA, USA', tag: 'Current', bullets: [
-        'Researching robotic systems for standardized and non-standardized inspection and maintenance tasks in complex industrial environments.',
-        'Studying optimal operation strategies for deployed robotic fleets to replace human workers in high-risk inspection work.' ] },
+      { period: '09/2025 – 08/2026', role: 'Visiting Researcher', org: 'Carnegie Mellon University Robotics Institute', loc: 'Pittsburgh, PA, USA', tag: 'Current', bullets: [
+        'Researched optimized robotic systems for facility inspection and maintenance in complex industrial environments.',
+        'Evaluated and benchmarked SOTA 3D reconstruction models using operator-view videos to replicate complex industrial environments and accelerate simulation-based robot integration.' ] },
       { period: '09/2023 – Present', role: 'Manager — Maintenance Strategy Team', org: 'POSCO', loc: 'Gwangyang Steelworks', tag: '', bullets: [
-        'Review and establish facility-management processes centered on AI and robotics adoption; targeting 90%+ automated inspection coverage.',
-        'Lead data analysis and modeling to support executive decision-making across a $0.64B annual maintenance budget.' ] },
-      { period: '07/2021 – 08/2023', role: 'Task Force — Asset Management System', org: 'POSCO · with POSCO DX & IBM', loc: '', tag: '', bullets: [
-        'Cross-functional 43-person TF building a unified, data-driven equipment-management platform with real-time monitoring and analytics.',
-        'Extracted (SQL), refined, and analyzed integrated facility data; delivered change-management training for ~12,000 end users.' ] },
+        'Formulated a mid-to-long-term roadmap to transform work practices through AI and robotics, analyzing maintenance patterns for the digital transformation of steel facility management.',
+        'Developed predictive models and data-driven systems for a $0.64B maintenance budget, optimizing resource allocation and guiding executive decisions.' ] },
+      { period: '07/2021 – 08/2023', role: 'Task Force — Asset Management System (EAM) Development', org: 'POSCO · with IBM', loc: '', tag: '', bullets: [
+        'Diagnosed operational bottlenecks by analyzing 10+ years of maintenance data, designing user-centric system flows and UI/UX layouts based on user behavior analysis.',
+        'Executed unit, integration, and user acceptance testing to ensure platform stability, and successfully delivered deployment training for ~12,000 end-users.' ] },
       { period: '01/2020 – 06/2021', role: 'Integrated Monitoring & Control Team', org: 'POSCO', loc: 'Gwangyang Steelworks', tag: '', bullets: [
-        'Steel-mill facility operation management; condition monitoring and data analysis with anomaly detection for large-scale automated equipment.',
-        'Built integrated monitoring server and predictive-maintenance PoC using Mahalanobis distance for rotating equipment.' ] },
-      { period: '08/2015 – 12/2019', role: 'Facility Investment & Coke Maintenance', org: 'POSCO', loc: 'Gwangyang Steelworks', tag: '', bullets: [
-        'Project Manager for 43 equipment-investment projects (34 main + 9 sub; ~$2.77M total) spanning automation, control, and power upgrades, within a ~$400M / year investment program.',
-        'Coke-making facility management; led failure recovery, overhaul planning, and equipment-robustness improvement initiatives.' ] }
+        'Engineered an integrated monitoring server and predictive-maintenance PoC, driving advanced condition-data analysis and anomaly detection for large-scale steel-mill equipment.' ] },
+      { period: '08/2015 – 12/2019', role: 'Facility Investment & Coke Maintenance Team', org: 'POSCO', loc: 'Gwangyang Steelworks', tag: '', bullets: [
+        'Project Manager for 43 equipment-investment projects (~$2.77M) spanning automation, control, and power-system upgrades within a ~$400M/year steelworks program.',
+        "Coke-making facility management; led failure recovery, overhaul planning, and equipment's robustness improvement initiatives." ] }
     ],
     projIntro: 'Self-directed full-stack projects across AI, computer vision, and data intelligence.',
     projects: [
-      { no: '01', name: 'PiggyNet', tagline: 'map-based social platform', desc: 'A private, map-based social platform for close-knit groups to discover, share, and track curated restaurant recommendations. Gamified with a GPS-based check-in system and sequential character-growth states tied to an XP reward architecture. Shipped as a full-stack, mobile-first PWA.', stack: ['Next.js', 'Tailwind CSS', 'Supabase', 'Kakao Maps API', 'PostGIS'], url: 'https://piggy-net.vercel.app/map', live: true, gh: false },
-      { no: '02', name: 'Video to Image', tagline: 'SfM / 3D-reconstruction pipeline', desc: 'An automated video-processing pipeline using FFmpeg and Laplacian blur filtering to extract high-quality image sequences optimized for Structure-from-Motion and 3D reconstruction. Integrated SAM 2.1/3 and Grounded-SAM 2 for zero-shot, prompt-based masking with temporally consistent binary masks.', stack: ['FFmpeg', 'SAM 2.1/3', 'Grounded-SAM 2', 'Python'], url: 'https://github.com/hms-gymnopedie/video_to_image', live: false, gh: true },
-      { no: '03', name: 'ThreeLines', tagline: 'daily journaling app', desc: 'A minimalist daily journaling app with calendar-based tracking and seamless photo-gallery integration. Added an AI-powered text-refinement tool and enforced strict data privacy via Supabase Row-Level Security with expiring signed URLs for media.', stack: ['Material Design 3', 'Supabase RLS', 'AI text refinement'], url: 'https://www.three-lines.app/home', live: true, gh: false },
-      { no: '04', name: 'ArtLog', tagline: 'exhibition & cultural log', desc: 'A web app for art enthusiasts to catalog exhibition visits, manage personal cultural logs, and organize artwork photography. Built categorized collection galleries, date-based exhibition archiving, and interactive review components in a responsive interface.', stack: ['Responsive web', 'Collection galleries', 'Archiving'], url: 'https://artlog-drab.vercel.app/gallery', live: true, gh: false },
-      { no: '05', name: 'Inteli Stocks', tagline: 'market intelligence dashboard', desc: 'A local-first stock-market intelligence dashboard for automated portfolio monitoring and equity research, with strategy backtesting and geopolitical risk mapping. Integrated Anthropic and Gemini APIs for real-time fundamental insights and AI-driven market evaluations.', stack: ['React', 'Express', 'Supabase', 'Anthropic API', 'Gemini API'], url: 'https://github.com/hms-gymnopedie/Inteli_Stocks', live: false, gh: true },
-      { no: '06', name: 'Robotics Trend Dashboard', tagline: 'research-trend analytics', desc: 'An interactive analytics dashboard to monitor and visualize research trends across AI, computer vision, and robotics. Built an optimized data pipeline over the arXiv API with multi-worker concurrent batch fetching, automated deduplication, and gzipped storage.', stack: ['Streamlit', 'arXiv API', 'Concurrent fetching'], url: 'https://robotics-trend.streamlit.app/', live: true, gh: false }
+      { no: '01', name: 'Video to Image', tagline: 'SfM / 3D-reconstruction pipeline', desc: 'Built an automated video pipeline using FFmpeg blur filtering and Grounded-SAM 2 to generate temporally consistent masks optimized for 3D reconstruction.', stack: ['OpenCV', 'SAM', 'FFmpeg', 'Python'], url: 'https://github.com/hms-gymnopedie/video_to_image', live: false, gh: true },
+      { no: '02', name: 'Robotics Trend Dashboard', tagline: 'research-trend analytics', desc: 'Built an interactive AI/robotics research dashboard powered by an optimized arXiv pipeline featuring concurrent batch fetching, automated deduplication, and compressed storage.', stack: ['Streamlit', 'arXiv API', 'Concurrent batch fetching'], url: 'https://robotics-trend.streamlit.app/', live: true, gh: false },
+      { no: '03', name: 'PiggyNet', tagline: 'map-based social platform', desc: 'Shipped a mobile-first PWA for close-knit groups to share authentic hidden gems, bypassing commercialized reviews through a trust-based, gamified map platform.', stack: ['Next.js', 'Tailwind CSS', 'Supabase', 'Kakao Maps API'], url: 'https://piggy-net.vercel.app/map', live: true, gh: false },
+      { no: '04', name: 'ThreeLines', tagline: 'daily journaling app', desc: 'Developed an AI-powered minimalist daily journaling app supporting English learners with achievable 3-line daily goals, driving consistent user engagement through streak motivations.', stack: ['TypeScript', 'Next.js', 'LLM Prompt', 'PWA', 'Vercel'], url: 'https://www.three-lines.app/home', live: true, gh: false },
+      { no: '05', name: 'ArtLog', tagline: 'exhibition & cultural log', desc: 'Developed an art archiving app that enriches personal culture by transforming fleeting exhibition moments into structured digital galleries and interactive logs.', stack: ['Next.js', 'Tailwind CSS', 'OpenCV.js', 'Web Worker', 'Google Maps API'], url: 'https://artlog-drab.vercel.app/gallery', live: true, gh: false },
+      { no: '06', name: 'Inteli Stocks', tagline: 'market intelligence dashboard', desc: 'Developed an intelligence dashboard providing objective financial metrics and advanced LLM insights, enabling investors to anchor their philosophies and safeguard wealth.', stack: ['React', 'Node.js', 'd3-geo', 'LLM API'], url: 'https://github.com/hms-gymnopedie/Inteli_Stocks', live: false, gh: true }
     ],
     skillGroups: [
-      { label: 'Data & Analysis', items: ['Python', 'SQL (IBM DB2, Oracle)', 'Mahalanobis modeling', 'MS Office Suite'] },
-      { label: 'Web & App', items: ['React', 'Next.js', 'Express', 'Tailwind CSS', 'Supabase', 'PostgreSQL + PostGIS', 'Streamlit', 'PWA'] },
-      { label: 'AI & Computer Vision', items: ['LLM workflow design', 'SAM 2.1/3', 'Grounded-SAM 2', '3DGS', '2DGS', 'COLMAP', 'Automation (n8n, etc.)'] },
-      { label: 'Languages', items: ['Korean (Native)', 'English (OPIc IH, TOEFL 100)'] },
-      { label: 'Interests', items: ['Guitar', 'Photography & editing'] }
+      { label: 'Data Engineering', items: ['Statistical Modeling', 'SQL (IBM DB2, Oracle, PostgreSQL)'] },
+      { label: 'Web & App', items: ['React', 'Next.js', 'Express', 'Tailwind CSS', 'PostGIS', 'Streamlit', 'PWA'] },
+      { label: 'AI & Computer Vision', items: ['3D Reconstruction (MAST3r, COLMAP, VGGT)', 'SAM', 'LLM workflow design', 'Isaac-sim'] },
+      { label: 'Languages', items: ['Korean (Native)', 'English (TOEFL 100/120, Professional Proficiency)'] },
+      { label: 'Interests', items: ['Guitar (Acoustic, Bass)', 'Photography & Editing'] }
     ],
     footerEyebrow: 'Get in touch',
     footerTitle: "Let's build something.",
@@ -244,40 +243,39 @@ const DATA = {
       proj: { eyebrow: '03 — 사이드 프로젝트', title: '웹 & 앱 개발' },
       skills: { eyebrow: '04 — 역량', title: '기술 & 관심사' }
     },
-    summary: '세계 최대 규모 종합 철강사 중 하나인 POSCO 설비기술부 매니저로, 대규모 산업 설비에 대한 AI·로보틱스·데이터 기반 유지보수 혁신을 주도하고 있습니다. 산업 자산 관리, 설비 유지보수 엔지니어링, 디지털 전환 분야에서 10년 이상의 경험을 바탕으로 자동화 점검 시스템 개발, 예지보전 모델 구축, 연 6.4억 달러 규모 유지보수 프로그램을 뒷받침하는 유지보수 전략 수립을 담당하고 있습니다. 현재 카네기멜런대학교 로보틱스 연구소 방문연구원으로서 첨단 로보틱스·AI의 산업 점검 및 유지보수 적용 연구에 집중하고 있으며, AI·컴퓨터비전·데이터 인텔리전스 분야의 독립적인 풀스택 웹·모바일 앱 개발 이력도 보유하고 있습니다.',
+    summary: '세계 최대 규모 종합 제철사 중 하나인 POSCO 설비기술부 매니저로, 대규모 산업 설비에 대한 AI·로보틱스·데이터 기반 유지보수 혁신을 주도하고 있습니다. 산업 자산 관리, 설비 유지보수 엔지니어링, 디지털 전환 분야에서 10년 이상의 경험을 바탕으로 자동화 점검 시스템 개발, 예지보전 모델 구축, 연 6.4억 달러 규모 유지보수 프로그램을 뒷받침하는 유지보수 전략 수립을 담당하고 있습니다. 현재 카네기멜런대학교 로보틱스 연구소 방문연구원으로서 첨단 로보틱스·AI의 산업 점검 및 유지보수 적용 연구에 집중하고 있으며, AI·컴퓨터비전·데이터 인텔리전스 분야의 독립적인 풀스택 웹·모바일 앱 개발 이력도 보유하고 있습니다.',
     focusTags: ['산업용 로보틱스', '예지보전', '점검 자동화', '데이터 기반 의사결정', '풀스택 개발', '컴퓨터비전'],
     experiences: [
-      { period: '2025.09 – 2026.08', role: '방문연구원', org: '카네기멜런대학교 — 로보틱스 연구소', loc: '미국 피츠버그, PA', tag: '현재', bullets: [
-        '복잡한 산업 환경에서 정형·비정형 점검 및 유지보수 작업을 위한 로봇 시스템을 연구합니다.',
-        '고위험 점검 업무에서 인력을 대체하기 위한 로봇 플릿의 최적 운용 전략을 연구합니다.' ] },
+      { period: '2025.09 – 2026.08', role: '방문연구원', org: '카네기멜런대학교 로보틱스 연구소', loc: '미국 피츠버그, PA', tag: '현재', bullets: [
+        '복잡한 산업 환경에서 설비 점검 및 유지보수를 위한 최적화된 로봇 시스템을 연구했습니다.',
+        '운전자 시점 영상을 활용한 SOTA 3D 재건 모델을 평가·벤치마킹하여 복잡한 산업 환경을 재현하고 시뮬레이션 기반 로봇 통합을 가속화했습니다.' ] },
       { period: '2023.09 – 현재', role: '매니저 — 설비전략그룹', org: 'POSCO', loc: '광양제철소', tag: '', bullets: [
-        'AI·로봇 도입을 중심으로 설비관리 프로세스를 검토·정립하며, 점검 자동화율 90% 이상을 목표로 합니다.',
-        '연 6.4억 달러 규모 유지보수 예산에 대한 데이터 분석·모델링으로 경영 의사결정을 지원합니다.' ] },
-      { period: '2021.07 – 2023.08', role: 'TF — 자산관리시스템 개발', org: 'POSCO · POSCO DX & IBM 협업', loc: '', tag: '', bullets: [
-        '43명 규모 교차기능 TF에서 실시간 모니터링·분석이 가능한 통합 데이터 기반 설비관리 플랫폼을 구축했습니다.',
-        '통합 설비 데이터를 SQL로 추출·정제·분석하고, 약 12,000명 사용자를 위한 변화관리 교육을 진행했습니다.' ] },
+        'AI·로보틱스를 통한 업무 혁신 중장기 로드맵을 수립하고, 제철 설비 디지털 전환을 위한 유지보수 패턴을 분석했습니다.',
+        '연 6.4억 달러 유지보수 예산에 대한 예측 모델 및 데이터 기반 시스템을 개발하여 자원 배분을 최적화하고 경영 의사결정을 지원했습니다.' ] },
+      { period: '2021.07 – 2023.08', role: 'TF — 자산관리시스템(EAM) 개발', org: 'POSCO · IBM 협업', loc: '', tag: '', bullets: [
+        '10년 이상의 유지보수 데이터를 분석하여 운영 병목 구간을 진단하고, 사용자 행동 분석에 기반한 사용자 중심 시스템 흐름 및 UI/UX 레이아웃을 설계했습니다.',
+        '플랫폼 안정성 확보를 위한 단위·통합·사용자 인수 테스트를 수행하고, 약 12,000명 사용자 대상 도입 교육을 성공적으로 완료했습니다.' ] },
       { period: '2020.01 – 2021.06', role: '통합모니터링·제어 팀', org: 'POSCO', loc: '광양제철소', tag: '', bullets: [
-        '제철 설비 운영관리 및 대규모 자동화 설비의 상태 모니터링·이상탐지 데이터 분석을 수행했습니다.',
-        '회전기기 대상 마할라노비스 거리 기반 예지보전 PoC와 통합 모니터링 서버를 구축했습니다.' ] },
+        '통합 모니터링 서버와 예지보전 PoC를 구축하고, 대규모 제철 설비에 대한 고도화된 상태 데이터 분석 및 이상탐지를 수행했습니다.' ] },
       { period: '2015.08 – 2019.12', role: '설비투자·코크스 정비 팀', org: 'POSCO', loc: '광양제철소', tag: '', bullets: [
-        '연 약 4억 달러 규모 제철소 투자 프로그램 내에서 자동화·제어·전력 설비 43개 투자 프로젝트(주 34 + 부 9, 총 약 277만 달러)의 PM을 수행했습니다.',
-        '코크스 제조 설비 관리 및 고장 복구, 정비 계획, 설비 강건화 개선 활동을 주도했습니다.' ] }
+        '연 약 4억 달러 규모 제철소 투자 프로그램 내 자동화·제어·전력 시스템 설비 43개 프로젝트(총 약 277만 달러)의 PM을 수행했습니다.',
+        '코크스 제조 설비 관리를 담당하며 고장 복구, 정비 계획, 설비 강건화 개선 활동을 주도했습니다.' ] }
     ],
     projIntro: 'AI·컴퓨터비전·데이터 인텔리전스 전반을 아우르는 자기주도 풀스택 프로젝트.',
     projects: [
-      { no: '01', name: 'PiggyNet', tagline: '지도 기반 소셜 플랫폼', desc: '가까운 그룹이 엄선한 맛집을 발견·공유·기록하는 비공개 지도 기반 소셜 플랫폼. GPS 체크인과 XP 보상 구조에 연동된 단계별 캐릭터 성장 시스템으로 게이미피케이션을 구현했습니다. 모바일 우선 풀스택 PWA로 출시했습니다.', stack: ['Next.js', 'Tailwind CSS', 'Supabase', 'Kakao Maps API', 'PostGIS'], url: 'https://piggy-net.vercel.app/map', live: true, gh: false },
-      { no: '02', name: 'Video to Image', tagline: 'SfM · 3D 복원 파이프라인', desc: 'FFmpeg와 라플라시안 블러 필터링으로 Structure-from-Motion·3D 복원에 최적화된 고품질 이미지 시퀀스를 추출하는 자동 영상처리 파이프라인. SAM 2.1/3와 Grounded-SAM 2를 통합해 프롬프트 기반 제로샷 마스킹으로 시간적으로 일관된 바이너리 마스크를 생성합니다.', stack: ['FFmpeg', 'SAM 2.1/3', 'Grounded-SAM 2', 'Python'], url: 'https://github.com/hms-gymnopedie/video_to_image', live: false, gh: true },
-      { no: '03', name: 'ThreeLines', tagline: '데일리 저널링 앱', desc: '캘린더 기반 기록과 사진 갤러리 연동을 갖춘 미니멀 데일리 저널링 앱. AI 텍스트 다듬기 도구를 추가하고, 만료형 서명 URL과 Supabase Row-Level Security로 엄격한 데이터 프라이버시를 적용했습니다.', stack: ['Material Design 3', 'Supabase RLS', 'AI 텍스트 보정'], url: 'https://www.three-lines.app/home', live: true, gh: false },
-      { no: '04', name: 'ArtLog', tagline: '전시 · 문화 기록', desc: '전시 관람을 정리하고 개인 문화 기록을 관리하며 작품 사진을 정리하는 웹 앱. 카테고리별 컬렉션 갤러리, 날짜 기반 전시 아카이빙, 인터랙티브 리뷰 컴포넌트를 반응형 인터페이스로 구현했습니다.', stack: ['반응형 웹', '컬렉션 갤러리', '아카이빙'], url: 'https://artlog-drab.vercel.app/gallery', live: true, gh: false },
-      { no: '05', name: 'Inteli Stocks', tagline: '마켓 인텔리전스 대시보드', desc: '포트폴리오 자동 모니터링과 종목 리서치를 위한 로컬 우선 주식시장 인텔리전스 대시보드. 전략 백테스팅과 지정학 리스크 매핑을 갖추고, Anthropic·Gemini API를 통합해 실시간 펀더멘털 인사이트와 AI 기반 시장 평가를 제공합니다.', stack: ['React', 'Express', 'Supabase', 'Anthropic API', 'Gemini API'], url: 'https://github.com/hms-gymnopedie/Inteli_Stocks', live: false, gh: true },
-      { no: '06', name: 'Robotics Trend Dashboard', tagline: '연구 트렌드 분석', desc: 'AI·컴퓨터비전·로보틱스 연구 트렌드를 모니터링·시각화하는 인터랙티브 분석 대시보드. arXiv API 기반 최적화 파이프라인에 멀티워커 동시 배치 수집, 자동 중복 제거, gzip 저장을 구축했습니다.', stack: ['Streamlit', 'arXiv API', '동시 배치 수집'], url: 'https://robotics-trend.streamlit.app/', live: true, gh: false }
+      { no: '01', name: 'Video to Image', tagline: 'SfM · 3D 복원 파이프라인', desc: 'FFmpeg 블러 필터링과 Grounded-SAM 2를 활용한 자동화 영상 파이프라인으로, 3D 재건에 최적화된 시간적으로 일관된 마스크를 생성합니다.', stack: ['OpenCV', 'SAM', 'FFmpeg', 'Python'], url: 'https://github.com/hms-gymnopedie/video_to_image', live: false, gh: true },
+      { no: '02', name: 'Robotics Trend Dashboard', tagline: '연구 트렌드 분석', desc: '동시 배치 수집, 자동 중복 제거, 압축 저장을 갖춘 최적화된 arXiv 파이프라인 기반의 인터랙티브 AI·로보틱스 연구 대시보드를 구축했습니다.', stack: ['Streamlit', 'arXiv API', '동시 배치 수집'], url: 'https://robotics-trend.streamlit.app/', live: true, gh: false },
+      { no: '03', name: 'PiggyNet', tagline: '지도 기반 소셜 플랫폼', desc: '상업화된 리뷰를 벗어나 신뢰 기반 게이미파이된 지도 플랫폼으로 소규모 그룹이 숨겨진 맛집을 공유하는 모바일 우선 PWA를 출시했습니다.', stack: ['Next.js', 'Tailwind CSS', 'Supabase', 'Kakao Maps API'], url: 'https://piggy-net.vercel.app/map', live: true, gh: false },
+      { no: '04', name: 'ThreeLines', tagline: '데일리 저널링 앱', desc: '영어 학습자를 위한 하루 3줄 목표와 스트릭 동기부여 시스템을 갖춘 AI 기반 미니멀 저널링 앱을 개발했습니다.', stack: ['TypeScript', 'Next.js', 'LLM Prompt', 'PWA', 'Vercel'], url: 'https://www.three-lines.app/home', live: true, gh: false },
+      { no: '05', name: 'ArtLog', tagline: '전시 · 문화 기록', desc: '순간적인 전시 경험을 체계적인 디지털 갤러리와 인터랙티브 기록으로 전환하여 개인 문화 생활을 풍요롭게 하는 아트 아카이빙 앱을 개발했습니다.', stack: ['Next.js', 'Tailwind CSS', 'OpenCV.js', 'Web Worker', 'Google Maps API'], url: 'https://artlog-drab.vercel.app/gallery', live: true, gh: false },
+      { no: '06', name: 'Inteli Stocks', tagline: '마켓 인텔리전스 대시보드', desc: '객관적 재무 지표와 고급 LLM 인사이트를 제공하여 투자자가 자신의 철학을 바탕으로 자산을 지킬 수 있도록 돕는 인텔리전스 대시보드를 개발했습니다.', stack: ['React', 'Node.js', 'd3-geo', 'LLM API'], url: 'https://github.com/hms-gymnopedie/Inteli_Stocks', live: false, gh: true }
     ],
     skillGroups: [
-      { label: '데이터 & 분석', items: ['Python', 'SQL (IBM DB2, Oracle)', '마할라노비스 모델링', 'MS 오피스'] },
-      { label: '웹 & 앱', items: ['React', 'Next.js', 'Express', 'Tailwind CSS', 'Supabase', 'PostgreSQL + PostGIS', 'Streamlit', 'PWA'] },
-      { label: 'AI & 컴퓨터비전', items: ['LLM 워크플로 설계', 'SAM 2.1/3', 'Grounded-SAM 2', '3DGS', '2DGS', 'COLMAP', '자동화 시스템(n8n 등)'] },
-      { label: '언어', items: ['한국어 (모국어)', '영어 (OPIc IH, TOEFL 100)'] },
-      { label: '관심사', items: ['기타', '사진 & 편집'] }
+      { label: '데이터 엔지니어링', items: ['통계 모델링', 'SQL (IBM DB2, Oracle, PostgreSQL)'] },
+      { label: '웹 & 앱', items: ['React', 'Next.js', 'Express', 'Tailwind CSS', 'PostGIS', 'Streamlit', 'PWA'] },
+      { label: 'AI & 컴퓨터비전', items: ['3D 재건 (MAST3r, COLMAP, VGGT)', 'SAM', 'LLM 워크플로 설계', 'Isaac-sim'] },
+      { label: '언어', items: ['한국어 (모국어)', '영어 (TOEFL 100/120, 업무상 능통)'] },
+      { label: '관심사', items: ['기타 (어쿠스틱, 베이스)', '사진 & 편집'] }
     ],
     footerEyebrow: '연락처',
     footerTitle: '함께 만들어요.',
@@ -286,7 +284,7 @@ const DATA = {
     footerNote: '인터랙티브 페이지 · 2026',
     liveText: '운영중', ghText: '오픈소스'
   }
-};
+}
 
 let currentLang = 'en';
 
